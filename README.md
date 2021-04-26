@@ -2,7 +2,7 @@
 basic tensorflow examples of doing binary classification
 will show auc result for each epoch
 It can deal with both dense or sparse input(like 3:2.5 1234:6.7)
-
+ 
 #binary classification of dense input data using logistic regression 
 python ./binary_classification.py  --train ./data/feature.normed.rand.12000.0_2.txt --test ./data/feature.normed.rand.12000.1_2.txt 
 python ./binary_classification.py  --train ./data/feature.normed.rand.12000.0_2.txt --test ./data/feature.normed.rand.12000.1_2.txt  --method mlp
